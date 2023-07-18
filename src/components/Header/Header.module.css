@@ -1,0 +1,17 @@
+.header {
+    background-color: var(--corTerciaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 32px;
+    border: 2px solid var(--corSecundaria);
+    border-radius: 18px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 32px;
+    color: var(--corSecundaria);
+    align-items: center;
+}

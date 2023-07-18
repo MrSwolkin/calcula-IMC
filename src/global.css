@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+    width: 80%;
+    margin: 32px auto;
+    background-color: var(--corPrincipal);
+    border-radius: 18px;
+}
+
+:root {
+    --corPrincipal: #273c75;
+    --corSecundaria: aliceblue;
+    --corTerciaria: #7f8fa6;
+}
